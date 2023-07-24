@@ -19,12 +19,12 @@ package v1alpha1
 
 import (
 	"context"
-	internalinterfaces "pkg/generated/informers/externalversions/internalinterfaces"
 	time "time"
 
-	baremetalv1alpha1 "./pkg/apis/baremetal/v1alpha1"
-	versioned "./pkg/generated/clientset/versioned"
-	v1alpha1 "./pkg/generated/listers/baremetal/v1alpha1"
+	baremetalv1alpha1 "github.com/xianfuzhang/baremetal-controller/pkg/apis/baremetal/v1alpha1"
+	versioned "github.com/xianfuzhang/baremetal-controller/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/xianfuzhang/baremetal-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/xianfuzhang/baremetal-controller/pkg/generated/listers/baremetal/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

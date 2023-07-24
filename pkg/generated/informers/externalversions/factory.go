@@ -18,13 +18,13 @@ limitations under the License.
 package externalversions
 
 import (
-	baremetal "pkg/generated/informers/externalversions/baremetal"
-	internalinterfaces "pkg/generated/informers/externalversions/internalinterfaces"
 	reflect "reflect"
 	sync "sync"
 	time "time"
 
-	versioned "./pkg/generated/clientset/versioned"
+	versioned "github.com/xianfuzhang/baremetal-controller/pkg/generated/clientset/versioned"
+	baremetal "github.com/xianfuzhang/baremetal-controller/pkg/generated/informers/externalversions/baremetal"
+	internalinterfaces "github.com/xianfuzhang/baremetal-controller/pkg/generated/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

@@ -18,8 +18,8 @@ limitations under the License.
 package baremetal
 
 import (
-	v1alpha1 "pkg/generated/informers/externalversions/baremetal/v1alpha1"
-	internalinterfaces "pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/xianfuzhang/baremetal-controller/pkg/generated/informers/externalversions/baremetal/v1alpha1"
+	internalinterfaces "github.com/xianfuzhang/baremetal-controller/pkg/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.
